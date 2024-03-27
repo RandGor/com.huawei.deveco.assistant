@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="emui_divider_alpha">0.1</item>
+    <item type="dimen" name="emui_highlight_bg_alpha">0.38</item>
+    <item type="dimen" name="emui_primary_content_alpha">0.86</item>
+    <item type="dimen" name="emui_tips_bg_alpha">0.1</item>
+</resources>

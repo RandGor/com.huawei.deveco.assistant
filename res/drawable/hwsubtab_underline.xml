@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/emui_subtab_line_on" />
+    <corners android:radius="@dimen/hwsubtab_line_radius" />
+    <size android:height="@dimen/hwsubtab_line_height" />
+</shape>

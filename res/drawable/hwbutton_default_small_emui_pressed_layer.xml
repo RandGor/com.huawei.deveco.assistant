@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/emui_corner_radius_button_small" />
+    <solid android:color="@color/hwbutton_default_pressed_color_layer" />
+</shape>

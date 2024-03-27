@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:paddingLeft="@dimen/padding_xl" android:paddingRight="@dimen/padding_xl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dimens_40_dp" android:layout_marginTop="@dimen/margin_l">
+        <com.huawei.uikit.hwbutton.widget.HwButton android:textSize="@dimen/emui_master_subtitle" android:gravity="center" android:id="@id/unInstanllAppBtn" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_28_dp" android:text="@string/uninstall" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" style="@style/Widget.Emui.HwButton" />
+        <com.huawei.uikit.hwedittext.widget.HwEditText android:textSize="@dimen/emui_master_subtitle" android:gravity="center" android:id="@id/packageName" android:background="@color/colorTransparent" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_36_dp" android:layout_marginRight="@dimen/margin_m" android:hint="@string/uninstall_pakage_name" android:singleLine="true" android:maxLength="@integer/int_127" android:layout_toLeftOf="@id/unInstanllAppBtn" android:layout_centerVertical="true" />
+        <View android:background="@color/emui_black" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_066_dp" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_text_size_body1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xl" android:layout_marginBottom="@dimen/emui_corner_radius_button" android:text="@string/history_recording" />
+    <RelativeLayout android:id="@id/historyItemsRel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

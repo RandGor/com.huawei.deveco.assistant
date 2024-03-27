@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.widget.Toolbar android:id="@id/hwToolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetLeft="@dimen/emui_dimens_default_bottom_flexible" app:contentInsetStart="@dimen/emui_dimens_default_bottom_flexible" app:contentInsetStartWithNavigation="@dimen/emui_dimens_default_bottom_flexible" />
+    <RelativeLayout android:paddingLeft="@dimen/padding_l" android:paddingTop="@dimen/emui_dimens_default_end" android:paddingRight="@dimen/padding_xl" android:paddingBottom="@dimen/emui_dimens_default_end" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.huawei.uikit.hwbutton.widget.HwButton android:textSize="@dimen/emui_text_size_button2" android:gravity="center" android:id="@id/controlLogBtn" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_28_dp" android:layout_marginRight="@dimen/margin_l" android:layout_toLeftOf="@id/clearLogBtn" android:textAllCaps="false" style="@style/Widget.Emui.HwButton.Small" />
+        <com.huawei.uikit.hwbutton.widget.HwButton android:textSize="@dimen/emui_text_size_button2" android:gravity="center" android:id="@id/clearLogBtn" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_28_dp" android:text="@string/clear_log_btn" android:layout_alignParentRight="true" android:textAllCaps="false" style="@style/Widget.Emui.HwButton.Small" />
+    </RelativeLayout>
+    <FrameLayout android:background="@color/colorTransparent" android:paddingLeft="@dimen/padding_xl" android:paddingRight="@dimen/padding_xl" android:paddingBottom="@dimen/padding_xl" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/logRecyclerView" android:background="@drawable/log_list_bg" android:paddingTop="@dimen/padding_l" android:paddingBottom="@dimen/padding_l" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loadingLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <com.huawei.uikit.hwprogressbar.widget.HwProgressBar android:layout_width="@dimen/dimens_64_dp" android:layout_height="@dimen/dimens_64_dp" android:layout_centerInParent="true" app:hwFillColor="@color/emui_color_2" style="@style/Widget.Emui.HwProgressBar.Large" />
+            <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_text_size_body2" android:textColor="@color/emui_color_text_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emui_dimens_default_end" android:text="@string/log_loading" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

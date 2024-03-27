@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/hwedittext_color_click" />
+            <corners android:topLeftRadius="0.0dip" android:topRightRadius="@dimen/emui_corner_radius_large" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="@dimen/emui_corner_radius_large" />
+        </shape>
+    </item>
+</selector>

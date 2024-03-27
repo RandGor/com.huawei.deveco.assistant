@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/hwedittext_linear_combination_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwedittext.widget.HwEditText android:layout_gravity="center_vertical" android:id="@id/hwedittext_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="@dimen/hwedittext_min_height" style="@style/Widget.Emui.HwEditText.Linear" />
+    <RelativeLayout android:gravity="center" android:layout_gravity="end|center" android:background="@drawable/hwedittext_icon_res_hot_linear" android:focusable="true" android:clickable="true" android:layout_width="@dimen/hwedittext_min_height" android:layout_height="@dimen/hwedittext_min_height">
+        <ImageView android:id="@id/hwedittext_icon" android:layout_width="@dimen/hwedittext_icon_text_layout_image_size" android:layout_height="@dimen/hwedittext_icon_text_layout_image_size" android:tint="@color/emui_color_primary" />
+    </RelativeLayout>
+</FrameLayout>

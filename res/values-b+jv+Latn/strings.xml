@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upsdk_app_dl_installing">Ngundhuh AppGallery</string>
+    <string name="upsdk_app_download_info_new">Instal</string>
+    <string name="upsdk_app_size">Ukrn</string>
+    <string name="upsdk_app_version">Vers</string>
+    <string name="upsdk_cancel">Wurung</string>
+    <string name="upsdk_checking_update_prompt">Mriksa panganyaran...</string>
+    <string name="upsdk_choice_update">Panganyaran sumadhiya. Undhuh &amp; instal versi anyar.</string>
+    <string name="upsdk_connect_server_fail_prompt_toast">Ora bisa nyambung menyang server. Coba maneh mengko.</string>
+    <string name="upsdk_detail">Rincian</string>
+    <string name="upsdk_getting_message_fail_prompt_toast">Ora bisa njupuk maneh info. Coba maneh mengko.</string>
+    <string name="upsdk_install">Instal AppGallery kanggo nganyarake. Instal saiki?</string>
+    <string name="upsdk_no_available_network_prompt_toast">Raana samb internet. Priksa setelan jaringan.</string>
+    <string name="upsdk_ota_app_name">Apl</string>
+    <string name="upsdk_ota_cancel">Mengko</string>
+    <string name="upsdk_ota_force_cancel_new">Metu</string>
+    <string name="upsdk_ota_notify_updatebtn">Anyarake</string>
+    <string name="upsdk_ota_title">Versi anyar</string>
+    <string name="upsdk_storage_utils">%1$s MB</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex">Wurung inst?</string>
+    <string name="upsdk_third_app_dl_install_failed">Instalasi gagal.</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download">Ya</string>
+    <string name="upsdk_update_check_no_new_version">Versi sampeyan wis paling anyar.</string>
+    <string name="upsdk_updating">Nganyarke</string>
+</resources>

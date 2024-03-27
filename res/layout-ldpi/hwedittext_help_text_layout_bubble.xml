@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/emui_dimens_max_start" android:paddingEnd="@dimen/emui_dimens_max_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwedittext.widget.HwEditText android:id="@id/hwedittext_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/emui_dimens_text_margin_fifth" style="@style/Widget.Emui.HwEditText" />
+    <TextView android:textSize="@dimen/emui_text_size_body2" android:textColor="@color/emui_color_text_secondary" android:id="@id/hwedittext_text_assist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@string/emui_text_font_family_regular" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/hwedittext_error_linear_press_emui" />
+    <item android:state_focused="true" android:state_window_focused="true" android:drawable="@drawable/hwedittext_default_linear_error_emui" />
+    <item android:drawable="@drawable/hwedittext_error_linear_press_emui" android:state_hovered="true" />
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/hwedittext_default_linear_error_emui" android:alpha="@dimen/hwedittext_disable_alpha" />
+    </item>
+    <item android:drawable="@drawable/hwedittext_default_linear_error_emui" />
+</selector>

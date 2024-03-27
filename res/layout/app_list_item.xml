@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="@dimen/emui_dimens_default_end" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_64_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_l" android:layout_toLeftOf="@id/downLoadBtn" android:layout_centerVertical="true">
+        <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_text_size_body1" android:textColor="@color/emui_black" android:ellipsize="end" android:id="@id/appNameTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="@integer/int_1" android:textAllCaps="false" />
+        <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_text_size_body3" android:textColor="@color/emui_color_gray_7" android:id="@id/appTimeTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_4_dp" android:textAllCaps="false" />
+    </LinearLayout>
+    <com.huawei.uikit.hwbutton.widget.HwButton android:id="@id/downLoadBtn" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_28_dp" android:layout_marginRight="@dimen/radius_m" android:text="@string/install" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" app:hwAutoSizeMinTextSize="@dimen/emui_text_size_body3" style="@style/Widget.Emui.HwButton" />
+    <View android:background="@color/emui_color_gray_3" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_066_dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

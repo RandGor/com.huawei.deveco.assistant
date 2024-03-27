@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.widget.Toolbar android:id="@id/hwToolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetLeft="@dimen/emui_dimens_default_bottom_flexible" app:contentInsetStart="@dimen/emui_dimens_default_bottom_flexible" app:contentInsetStartWithNavigation="@dimen/emui_dimens_default_bottom_flexible" />
+    <com.huawei.uikit.hwsubtab.widget.HwSubTabWidget android:gravity="center" android:id="@id/tab_query_params" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hwSubTabBlurColor="@color/emui_color_bg" style="@style/Widget.Emui.HwSubTabBar" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewpager_query_params" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

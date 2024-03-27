@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upsdk_app_dl_installing">خۇاۋېي ئەپ بازىرى چۈشۈۋاتىدۇ</string>
+    <string name="upsdk_app_download_info_new">قاچىلاش</string>
+    <string name="upsdk_app_size">سىغىم</string>
+    <string name="upsdk_app_version">نەشرى</string>
+    <string name="upsdk_cancel">بىكار قىلىش</string>
+    <string name="upsdk_checking_update_prompt">يېڭىلانما تەكشۈرۈۋاتىدۇ...</string>
+    <string name="upsdk_choice_update">ئىشلەتكىلى بولىدىغان يېڭىلانما بار، تېز دەرىجىسىنى ئۆستۈرۈۋېلىڭ.</string>
+    <string name="upsdk_connect_server_fail_prompt_toast">مۇلازىمىتېرغا ئۇلانمىدى، سەل تۇرۇپ قايتا سىناڭ</string>
+    <string name="upsdk_detail">تەپسىلات</string>
+    <string name="upsdk_getting_message_fail_prompt_toast">ئۇچۇرغا ئېرىشەلمىدى، سەل تۇرۇپ قايتا سىناڭ</string>
+    <string name="upsdk_install">خۇاۋېي ئورگان ئەپ بازىرىنى ئىشلەتكەندىلا ئاندىن دەرىجىسىنى ئۆستۈرۈشكە بولىدۇ، داۋاملاشتۇرامسىز؟</string>
+    <string name="upsdk_no_available_network_prompt_toast">تور ئۇلانمىدى، تور تەڭشىكىنى تەكشۈرۈڭ</string>
+    <string name="upsdk_ota_app_name">ئەپ</string>
+    <string name="upsdk_ota_cancel">كېيىنچە</string>
+    <string name="upsdk_ota_force_cancel_new">ئەپتىن چېكىنىش</string>
+    <string name="upsdk_ota_notify_updatebtn">يېڭىلاش</string>
+    <string name="upsdk_ota_title">يېڭى نەشرى بايقالدى</string>
+    <string name="upsdk_storage_utils">%1$sMB</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex">قاچىلاشنى بىكار قىلامسىز؟</string>
+    <string name="upsdk_third_app_dl_install_failed">قاچىلانمىدى</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download">جەزملەش</string>
+    <string name="upsdk_update_check_no_new_version">بۇ ئەڭ يېڭى نەشرى</string>
+    <string name="upsdk_updating">يېڭىلىنىۋاتىدۇ</string>
+</resources>

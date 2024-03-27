@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upsdk_app_dl_installing">AppGallery डाउनलोड कय रहल अछि</string>
+    <string name="upsdk_app_download_info_new">स्थापित करू</string>
+    <string name="upsdk_app_size">आकार</string>
+    <string name="upsdk_app_version">संस्करण</string>
+    <string name="upsdk_cancel">रद्द करू</string>
+    <string name="upsdk_checking_update_prompt">नवीनतमक लेल जाँच करैत अछि…</string>
+    <string name="upsdk_choice_update">अपडेट उपलब्ध अछि। कृपाकय डाउनलोड करू आ नवीनतम संस्करण स्थापित करू।</string>
+    <string name="upsdk_connect_server_fail_prompt_toast">सर्वरसँ जोड़वामे असमर्थ। कृपया फेर स बाद में प्रयास करब।</string>
+    <string name="upsdk_detail">विवरण सब</string>
+    <string name="upsdk_getting_message_fail_prompt_toast">जानकारी ढूँढयमे असमर्थ अछि। कृपया फेर स बाद में प्रयास करब।</string>
+    <string name="upsdk_install">अपडेट करबाक लेल AppGallery स्थापित करू। एखन स्थापना करू?</string>
+    <string name="upsdk_no_available_network_prompt_toast">कोनो इंटरनेट सम्पर्क नहि। कृपाकय अपन नेटवर्क सेटिंग्स केर जाँच करू।</string>
+    <string name="upsdk_ota_app_name">एप</string>
+    <string name="upsdk_ota_cancel">बादमे</string>
+    <string name="upsdk_ota_force_cancel_new">बाहर जाउ</string>
+    <string name="upsdk_ota_notify_updatebtn">अपडेट करू</string>
+    <string name="upsdk_ota_title">नवीन संस्करण</string>
+    <string name="upsdk_storage_utils">%1$s MB</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex">स्थापना रद्द करू?</string>
+    <string name="upsdk_third_app_dl_install_failed">स्थापना करबामे असफल भेल।</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download">हँ</string>
+    <string name="upsdk_update_check_no_new_version">अहांक वर्जन अप टू डेट अछि।</string>
+    <string name="upsdk_updating">अपडेट कय रहल</string>
+</resources>

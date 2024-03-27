@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="@dimen/emui_corner_radius_button" />
+            <solid android:color="@color/hwbutton_selector_color_emphasize_emui" />
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item android:state_window_focused="false" android:drawable="@android:color/transparent" />
+            <item android:state_pressed="true" android:drawable="@drawable/hwbutton_emphasize_emui_pressed_layer" />
+            <item android:state_focused="true" android:state_enabled="true" android:drawable="@android:color/transparent" />
+            <item android:state_focused="true" android:state_enabled="false" android:drawable="@android:color/transparent" />
+            <item android:drawable="@drawable/hwbutton_emphasize_emui_pressed_layer" android:state_hovered="true" />
+            <item android:state_focused="true" android:drawable="@android:color/transparent" />
+            <item android:state_enabled="true" android:drawable="@android:color/transparent" />
+            <item android:drawable="@android:color/transparent" />
+        </selector>
+    </item>
+</layer-list>

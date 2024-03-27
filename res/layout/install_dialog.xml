@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/padding_xl" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_text_size_body2" android:textColor="@color/emui_color_primary" android:id="@id/installingTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/installing" android:textAllCaps="false" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_text_size_body2" android:textColor="@color/emui_color_primary" android:gravity="right" android:id="@id/progressNumberTxt" android:layout_width="@dimen/dimens_40_dp" android:layout_height="wrap_content" android:layout_alignTop="@id/installingTxt" android:layout_alignParentRight="true" android:textAllCaps="false" />
+    <com.huawei.uikit.hwprogressbar.widget.HwProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emui_dimens_text_margin_fifth" android:layout_weight="@integer/int_1" android:layout_below="@id/installingTxt" style="@style/Widget.Emui.HwProgressBar.Horizontal" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/installing_linear" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_40_dp" android:layout_centerVertical="true">
+        <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_text_size_body2" android:textColor="@color/emui_color_primary" android:id="@id/loading_state_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/install_start" android:layout_weight="1.0" android:textAllCaps="false" />
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar android:id="@id/circleProgressBar" android:layout_width="@dimen/dimens_40_dp" android:layout_height="@dimen/dimens_40_dp" android:layout_centerInParent="true" style="@style/Widget.Emui.HwProgressBar.Large" />
+        <ImageView android:id="@id/install_ok_img" android:layout_width="@dimen/download_bar_item_icon_size" android:layout_height="@dimen/download_bar_item_icon_size" android:src="@drawable/install_ok" />
+    </LinearLayout>
+</RelativeLayout>

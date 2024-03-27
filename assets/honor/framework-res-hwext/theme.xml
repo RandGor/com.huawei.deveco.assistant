@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Actionbar Background color -->
+    <color name="primary_emui_light">#f8f8f8</color>
+</resources>
+

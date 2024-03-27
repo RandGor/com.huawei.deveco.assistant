@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.uikit.hwswiperefreshlayout.widget.HwRefreshHeadView android:orientation="vertical" android:id="@id/hwswiperefreshlayout_headview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/hwswiperefreshlayout_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/hwswiperefreshlayout_text_margin_bottom">
+        <com.huawei.uikit.hwprogressbar.widget.HwProgressBar android:layout_gravity="center" android:id="@id/hwswiperefreshlayout_progressbar" android:layout_width="@dimen/hwswiperefreshlayout_progressbar_size" android:layout_height="@dimen/hwswiperefreshlayout_progressbar_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:hwFillColor="@color/emui_color_progress" />
+    </RelativeLayout>
+    <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_text_size_body2" android:textColor="@color/emui_color_text_secondary" android:ellipsize="end" android:gravity="center" android:id="@id/hwswiperefreshlayout_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hwswiperefreshlayout_text_margin_bottom" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="@string/emui_text_font_family_regular" />
+</com.huawei.uikit.hwswiperefreshlayout.widget.HwRefreshHeadView>

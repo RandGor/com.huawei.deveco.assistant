@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<errorinfos>
+    <errorinfo errorcode="10" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="11" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="12" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="13" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="14" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="15" errorstring="Недействительный формат файла." />
+    <errorinfo errorcode="16" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="17" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="18" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="19" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="20" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="21" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="22" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="23" errorstring="Сбой обновления. Устаревшая версия приложения." />
+    <errorinfo errorcode="24" errorstring="Достигнуто максимальное количество приложений." />
+    <errorinfo errorcode="25" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="26" errorstring="Недействительный формат файла." />
+    <errorinfo errorcode="27" errorstring="Сбой обновления. Подпись не совпадает с подписью более ранней версии." />
+    <errorinfo errorcode="28" errorstring="Сбой подтверждения подписи." />
+    <errorinfo errorcode="29" errorstring="Сбой подтверждения подписи." />
+    <errorinfo errorcode="30" errorstring="Сбой подтверждения подписи." />
+    <errorinfo errorcode="31" errorstring="Сбой подтверждения подписи." />
+    <errorinfo errorcode="32" errorstring="Сбой подтверждения подписи." />
+    <errorinfo errorcode="33" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="34" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="35" errorstring="Сбой подтверждения подписи." />
+    <errorinfo errorcode="40" errorstring="Недействительный формат файла конфигурации." />
+    <errorinfo errorcode="41" errorstring="Значение app.bundleName не найдено." />
+    <errorinfo errorcode="42" errorstring="Введено недействительное значение app.bundleName." />
+    <errorinfo errorcode="43" errorstring="Введено недействительное значение app.vendor." />
+    <errorinfo errorcode="44" errorstring="Значение app.version.code не найдено." />
+    <errorinfo errorcode="45" errorstring="Значение app.version.name не найдено." />
+    <errorinfo errorcode="46" errorstring="Введено недействительное значение module.abilities.permissions." />
+    <errorinfo errorcode="47" errorstring="Введено недействительное значение app.apiVersion." />
+    <errorinfo errorcode="48" errorstring="Значение deviceConfig.defult не найдено." />
+    <errorinfo errorcode="49" errorstring="Введено недействительное значение deviceConfig.keepAlive." />
+    <errorinfo errorcode="50" errorstring="Значение module.moduleName не найдено." />
+    <errorinfo errorcode="51" errorstring="Введено недействительное значение module.moduleName." />
+    <errorinfo errorcode="52" errorstring="Введено недействительное значение module.description." />
+    <errorinfo errorcode="53" errorstring="Введено недействительное значение module.deviceType." />
+    <errorinfo errorcode="54" errorstring="Введено недействительное значение module.distro." />
+    <errorinfo errorcode="55" errorstring="Введено недействительное значение module.distro.moduleName." />
+    <errorinfo errorcode="56" errorstring="Введено недействительное значение module.distro.moduleType." />
+    <errorinfo errorcode="57" errorstring="Значение module.distro.deliverWithInstall не найдено." />
+    <errorinfo errorcode="58" errorstring="Введено недействительное значение module.metaData." />
+    <errorinfo errorcode="59" errorstring="Введено недействительное значение module.abilities." />
+    <errorinfo errorcode="60" errorstring="Введено недействительное значение module.abilities.name." />
+    <errorinfo errorcode="61" errorstring="Введено недействительное значение module.abilities.type." />
+    <errorinfo errorcode="62" errorstring="Введено недействительное значение module.abilities.icon." />
+    <errorinfo errorcode="63" errorstring="Введено недействительное значение module.abilities.label." />
+    <errorinfo errorcode="64" errorstring="Введено недействительное значение module.abilities.description." />
+    <errorinfo errorcode="65" errorstring="Введено недействительное значение module.abilities.launchtype." />
+    <errorinfo errorcode="66" errorstring="Введено недействительное значение module.abilities.visible." />
+    <errorinfo errorcode="67" errorstring="Недопустимая длина значения app.bundleName." />
+    <errorinfo errorcode="68" errorstring="Недопустимая длина значения module.abilities.label." />
+    <errorinfo errorcode="69" errorstring="Недопустимая длина значения app.version.name." />
+    <errorinfo errorcode="70" errorstring="Введено недействительное значение module.metaData." />
+    <errorinfo errorcode="71" errorstring="Введено недействительное значение module.metaData." />
+    <errorinfo errorcode="72" errorstring="Недопустимая длина значения app.vendor." />
+    <errorinfo errorcode="73" errorstring="Недопустимая длина значения module.distro.moduleName." />
+    <errorinfo errorcode="74" errorstring="Недопустимая длина значения module.abilities.name." />
+    <errorinfo errorcode="75" errorstring="Недопустимая длина значения module.abilities.description." />
+    <errorinfo errorcode="76" errorstring="Недопустимая длина значения module.abilities.label." />
+    <errorinfo errorcode="77" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="78" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="79" errorstring="Недействительный формат пакета. Ошибка анализа пути javaScript." />
+    <errorinfo errorcode="80" errorstring="Индекс ресурса не найден." />
+    <errorinfo errorcode="81" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="82" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="83" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="84" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="90" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="91" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="92" errorstring="Невозможно найти приложение." />
+    <errorinfo errorcode="93" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="94" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="95" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="96" errorstring="Невозможно удалить приложение." />
+    <errorinfo errorcode="97" errorstring="Внутренняя ошибка." />
+    <errorinfo errorcode="98" errorstring="Внутренняя ошибка." />
+</errorinfos>

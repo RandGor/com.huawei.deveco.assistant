@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_app_logo" android:layout_width="@dimen/emui_text_size_headline2" android:layout_height="@dimen/emui_text_size_headline2" android:layout_marginTop="@dimen/dimens_110_dp" android:src="@mipmap/logo" android:layout_centerHorizontal="true" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_text_size_body1" android:textStyle="bold" android:textColor="@color/aboutTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emui_dimens_default_end" android:text="@string/about_us_name" android:layout_below="@id/iv_app_logo" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+    <com.huawei.uikit.hwtextview.widget.HwTextView android:textSize="@dimen/emui_master_body_1" android:textColor="@color/emui_color_text_secondary" android:gravity="center_horizontal" android:id="@id/tv_copyright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_xl" android:text="@string/app_copyright" android:layout_alignParentBottom="true" android:textAllCaps="false" />
+</RelativeLayout>

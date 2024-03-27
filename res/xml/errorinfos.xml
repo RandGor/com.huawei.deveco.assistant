@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<errorinfos>
+    <errorinfo errorcode="10" errorstring="Internal error." />
+    <errorinfo errorcode="11" errorstring="Internal error." />
+    <errorinfo errorcode="12" errorstring="Internal error." />
+    <errorinfo errorcode="13" errorstring="Internal error." />
+    <errorinfo errorcode="14" errorstring="Internal error." />
+    <errorinfo errorcode="15" errorstring="Invalid file format." />
+    <errorinfo errorcode="16" errorstring="Internal error." />
+    <errorinfo errorcode="17" errorstring="Internal error." />
+    <errorinfo errorcode="18" errorstring="Internal error." />
+    <errorinfo errorcode="19" errorstring="Internal error." />
+    <errorinfo errorcode="20" errorstring="Internal error." />
+    <errorinfo errorcode="21" errorstring="Internal error." />
+    <errorinfo errorcode="22" errorstring="Internal error." />
+    <errorinfo errorcode="23" errorstring="Update failed. App version is too low." />
+    <errorinfo errorcode="24" errorstring="Maximum number of apps reached." />
+    <errorinfo errorcode="25" errorstring="Internal error." />
+    <errorinfo errorcode="26" errorstring="Invalid file format." />
+    <errorinfo errorcode="27" errorstring="Update failed. The signature does not match that of the earlier version." />
+    <errorinfo errorcode="28" errorstring="Failed to verify signature." />
+    <errorinfo errorcode="29" errorstring="Failed to verify signature." />
+    <errorinfo errorcode="30" errorstring="Failed to verify signature." />
+    <errorinfo errorcode="31" errorstring="Failed to verify signature." />
+    <errorinfo errorcode="32" errorstring="Failed to verify signature." />
+    <errorinfo errorcode="33" errorstring="Internal error." />
+    <errorinfo errorcode="34" errorstring="Internal error." />
+    <errorinfo errorcode="35" errorstring="Failed to verify signature." />
+    <errorinfo errorcode="40" errorstring="Invalid configuration file format." />
+    <errorinfo errorcode="41" errorstring="app.bundleName not found." />
+    <errorinfo errorcode="42" errorstring="Invalid value entered for app.bundleName." />
+    <errorinfo errorcode="43" errorstring="Invalid value entered for app.vendor." />
+    <errorinfo errorcode="44" errorstring="app.version.code not found." />
+    <errorinfo errorcode="45" errorstring="app.version.name not found." />
+    <errorinfo errorcode="46" errorstring="Invalid value entered for module.abilities.permissions." />
+    <errorinfo errorcode="47" errorstring="Invalid value entered for app.apiVersion." />
+    <errorinfo errorcode="48" errorstring="deviceConfig.defult not found." />
+    <errorinfo errorcode="49" errorstring="Invalid value entered for deviceConfig.keepAlive." />
+    <errorinfo errorcode="50" errorstring="module.moduleName not found." />
+    <errorinfo errorcode="51" errorstring="Invalid value entered for module.moduleName." />
+    <errorinfo errorcode="52" errorstring="Invalid value entered for module.description." />
+    <errorinfo errorcode="53" errorstring="Invalid value entered for module.deviceType." />
+    <errorinfo errorcode="54" errorstring="Invalid value entered for module.distro." />
+    <errorinfo errorcode="55" errorstring="Invalid value entered for module.distro.moduleName." />
+    <errorinfo errorcode="56" errorstring="Invalid value entered for module.distro.moduleType." />
+    <errorinfo errorcode="57" errorstring="module.distro.deliverWithInstall not found." />
+    <errorinfo errorcode="58" errorstring="Invalid value entered for module.metaData." />
+    <errorinfo errorcode="59" errorstring="Invalid value entered for module.abilities." />
+    <errorinfo errorcode="60" errorstring="Invalid value entered for module.abilities.name." />
+    <errorinfo errorcode="61" errorstring="Invalid value entered for module.abilities.type." />
+    <errorinfo errorcode="62" errorstring="Invalid value entered for module.abilities.icon." />
+    <errorinfo errorcode="63" errorstring="Invalid value entered for module.abilities.label." />
+    <errorinfo errorcode="64" errorstring="Invalid value entered for module.abilities.description." />
+    <errorinfo errorcode="65" errorstring="Invalid value entered for module.abilities.launchtype." />
+    <errorinfo errorcode="66" errorstring="Invalid value entered for module.abilities.visible." />
+    <errorinfo errorcode="67" errorstring="app.bundleName value length not valid." />
+    <errorinfo errorcode="68" errorstring="module.abilities.label value length not valid." />
+    <errorinfo errorcode="69" errorstring="app.version.name value length not valid." />
+    <errorinfo errorcode="70" errorstring="Invalid value entered for module.metaData." />
+    <errorinfo errorcode="71" errorstring="Invalid value entered for module.metaData." />
+    <errorinfo errorcode="72" errorstring="app.vendor value length not valid." />
+    <errorinfo errorcode="73" errorstring="module.distro.moduleName value length not valid." />
+    <errorinfo errorcode="74" errorstring="module.abilities.name value length not valid." />
+    <errorinfo errorcode="75" errorstring="module.abilities.description value length not valid." />
+    <errorinfo errorcode="76" errorstring="module.abilities.label value length not valid." />
+    <errorinfo errorcode="77" errorstring="Internal error." />
+    <errorinfo errorcode="78" errorstring="Internal error." />
+    <errorinfo errorcode="79" errorstring="Invalid package format. An error occurred when parsing the javaScript path." />
+    <errorinfo errorcode="80" errorstring="Resource index not found." />
+    <errorinfo errorcode="81" errorstring="Internal error." />
+    <errorinfo errorcode="82" errorstring="Internal error." />
+    <errorinfo errorcode="83" errorstring="Internal error." />
+    <errorinfo errorcode="84" errorstring="Internal error." />
+    <errorinfo errorcode="90" errorstring="Internal error." />
+    <errorinfo errorcode="91" errorstring="Internal error." />
+    <errorinfo errorcode="92" errorstring="Unable to find app." />
+    <errorinfo errorcode="93" errorstring="Internal error." />
+    <errorinfo errorcode="94" errorstring="Internal error." />
+    <errorinfo errorcode="95" errorstring="Internal error." />
+    <errorinfo errorcode="96" errorstring="This app cannot be uninstalled." />
+    <errorinfo errorcode="97" errorstring="Internal error." />
+    <errorinfo errorcode="98" errorstring="Internal error." />
+</errorinfos>

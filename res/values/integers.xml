@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="emui_device_type">1</integer>
+    <integer name="hwbutton_single_line">1</integer>
+    <integer name="hwsubtab_bg_blur_type">4</integer>
+    <integer name="int_1">1</integer>
+    <integer name="int_127">127</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+</resources>
