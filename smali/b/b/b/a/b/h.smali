@@ -48,6 +48,10 @@
 
 .field public final g:Lb/b/b/a/d/a;
 
+# # new code 
+.field public final receiver:Landroid/content/BroadcastReceiver;
+# # end new code
+
 
 # direct methods
 .method public static constructor <clinit>()V
@@ -78,7 +82,7 @@
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Lcom/huawei/wearengine/p2p/P2pClient;Lcom/huawei/wearengine/device/Device;Ljava/util/List;Lb/b/b/a/d/a;)V
-    .locals 0
+    .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -124,6 +128,26 @@
 
     .line 8
     iput-object p5, p0, Lb/b/b/a/b/h;->g:Lb/b/b/a/d/a;
+    
+    # # new code 
+    .line 9
+
+    new-instance v0, Lb/b/b/a/b/HamBroadcastReceiver;
+    invoke-direct {v0, p0}, Lb/b/b/a/b/HamBroadcastReceiver;-><init>(Lb/b/b/a/b/h;)V
+    check-cast v0, Landroid/content/BroadcastReceiver;
+    iput-object v0, p0, Lb/b/b/a/b/h;->receiver:Landroid/content/BroadcastReceiver;
+                              
+    .line 10
+    new-instance v1, Landroid/content/IntentFilter;
+    const-string v2, "installHap"
+    invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
+
+    .line 11
+    iget-object p1, p0, Lb/b/b/a/b/h;->b:Landroid/content/Context;
+
+    .line 12
+    invoke-virtual {p1, v0, v1}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+    # # end new code
 
     return-void
 .end method

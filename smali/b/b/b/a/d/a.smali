@@ -39,7 +39,7 @@
 
 # virtual methods
 .method public a()V
-    .locals 1
+    .locals 2
 
     .line 1
     iget-object v0, p0, Lb/b/b/a/d/a;->b:Landroid/app/Dialog;
@@ -58,6 +58,23 @@
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
     :cond_0
+
+
+   # # new code 
+    .line 3
+    new-instance v0, Landroid/content/Intent;
+    const-string v1, "ru.randgor.gallery.open_watch_app"
+    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    
+    .line 4
+    iget-object v1, p0, Lb/b/b/a/d/a;->a:Landroid/content/Context;
+    
+    .line 5
+    .local v0, "intent":Landroid/content/Intent;
+        invoke-virtual {v1, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    .end local v0 # "intent":Landroid/content/Intent;
+    # # end new code
+
     return-void
 .end method
 
